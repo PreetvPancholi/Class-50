@@ -1,0 +1,32 @@
+h1{
+    color:aquamarine;
+}
+p{
+    color: blue;
+    font:"Comic sans"
+}
+/*{
+   // border: solid;
+//}*/
+
+.header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+h2,p{
+    text-align: center;
+}
